@@ -1,0 +1,14 @@
+This is a programmitic answer to the question "what is CouchDB's reduce good for?"
+
+For more details on the original question, see here:
+
+http://mail-archives.apache.org/mod_mbox/incubator-couchdb-user/200809.mbox/%3c971980cc0809031750o28beafc7n9f20c706f44e169@mail.gmail.com%3e
+
+To run the example, you'll need the CouchRest gem installed
+
+sudo gem install jchris-couchrest -s http://gems.github.com
+
+then run these two commands in the root directory of this project:
+
+ruby import.rb readings.txt
+ruby query.rb
